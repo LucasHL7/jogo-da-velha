@@ -1,0 +1,44 @@
+#Jogo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.linha {
+    width: 100%;
+    display: flex;
+}
+
+.casa {
+    width: 33.33%;
+    height: 200px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    background-size: contain; /* Ajusta a imagem para caber dentro da casa */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+}
+
+.casa:hover {
+    background-color: #e0e0e0;
+}
+
+/* Estilos existentes... */
+
+#reiniciar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Cor de fundo verde */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#reiniciar:hover {
+    background-color: #45a049; /* Cor de fundo verde mais escura ao passar o mouse */
+}
